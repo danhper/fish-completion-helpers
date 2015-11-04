@@ -20,10 +20,10 @@ Add the two files in [the functions directory](https://github.com/tuvistavie/fis
 
 ## Usage
 
-For the program main commands, add `__fish_prog_needs_command CMD_NAME` to complete condition (`-n` flag). Example:
+For the program main commands, add `__fish_prog_needs_command` to complete condition (`-n` flag). Example:
 
 ```
-complete -f -c cmd -n '__fish_prog_needs_command cmd' -a start -d "start my cmd"
+complete -f -c cmd -n '__fish_prog_needs_command' -a start -d "start my cmd"
 ```
 
 For the program subcommands, add `__fish_prog_using_command SUBCMD` to complete condition (`-n` flag). Example:
