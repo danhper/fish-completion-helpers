@@ -4,7 +4,7 @@ Helper functions to make subcommands completions easier with fish.
 
 ## Installation
 
-## Using fundle (recommended)
+## Using [fundle](https://github.com/tuvistavie/fundle) (recommended)
 
 Add
 
