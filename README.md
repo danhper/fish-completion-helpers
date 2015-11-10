@@ -9,7 +9,7 @@ Helper functions to make subcommands completions easier with fish.
 Add
 
 ```
-fundle plugin 'tuvistavie/fish-fastdir'
+fundle plugin 'tuvistavie/fish-completion-helpers'
 ```
 
 to your `config.fish` and run `fundle install`.
